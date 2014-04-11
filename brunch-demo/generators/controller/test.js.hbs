@@ -1,0 +1,20 @@
+'use strict';
+
+describe('{{uppercamelize name}} controller', function() {
+  var $scope;
+  var {{camelize name}};
+
+  beforeEach(function() {
+    module('app.controllers');
+    inject(function($rootScope, $controller) {
+      $scope = $rootScope.$new();
+      {{camelize name}} = $controller('{{uppercamelize name}}', {
+        $scope: $scope
+      });
+    });
+  });
+
+  it('', function() {
+
+  });
+});

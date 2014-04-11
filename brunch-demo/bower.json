@@ -1,0 +1,17 @@
+{
+  "name": "package-name",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.2.0",
+    "angular-route": "~1.2.0",
+    "normalize-css": "~3.0.0"
+  },
+  "overrides": {},
+  "resolutions": {
+    "angular": "1.2.16"
+  }
+}
